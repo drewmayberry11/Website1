@@ -1,0 +1,47 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-bar ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .menu-bar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+  }
+  
+  .search-bar button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+  }
+  
